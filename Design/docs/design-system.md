@@ -31,3 +31,26 @@
 
 메인시안에서 보이는 스타일과 컴포넌트 전체 상태를 구분한다. 예를 들어 기본 버튼의 스타일만 확정되었다면 오류·비활성·포커스 상태를 임의로 확정하지 않는다. 기존 상태 유지 또는 추가 제안으로 표시한다.
 
+
+## 현재 Figma 위치
+
+기준일: 2026-11-03. 아래 링크는 현재 작업 위치이며 메인시안 확정 또는 모든 화면 승인 상태를 뜻하지 않는다. 실제 작업 직전에 페이지·노드의 존재와 권한을 다시 확인한다.
+
+| 구분 | 위치 | 편집 범위 |
+|---|---|---|
+| 기준 파일 | [TLDS3.0](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0) | 현재 실제 작업 파일 |
+| Shadcn UI | [🧩 Components](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=2429-55) | 해당 작업에서 요청된 컴포넌트·스타일만 수정 |
+| 화면설계서 | [로그인/회원가입-화면설계서](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=5021-24884) | 읽기 전용 원문 기준 |
+| 디자인 결과 | [로그인/회원가입](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=5029-45347) | 승인된 작업 대상, APP 폭 375px |
+| 검토 전용 | [Interaction Guide : Draft](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=5003-4) | 사용자 작성 초안. 별도 수정 요청 전에는 검토만 수행 |
+
+키트 버전·복제일, 확정 메인시안 노드·승인일, 다른 카테고리의 소스·결과 위치는 아직 별도 입력이 필요하다. 링크가 있다고 미확정 기준을 확정한 것으로 취급하지 않는다.
+
+## 현재 서체 기준
+
+- 제품 서체: Pretendard. 2026-11-03 사용자가 Figma 계정에 굵기 파일을 업로드했고 AI 연결 환경에서 9개 굵기 인식을 확인했다. 세션별 실제 로드는 다시 확인한다.
+- 기존 `family/sans`, `family/mono`, `family/sans-serif`, `family/monospace` 값은 Pretendard로 통일했다. 변수 이름·구조는 유지한다. mono 계열도 제품의 통일 서체를 사용하므로 고정폭 특성은 유지되지 않는다.
+- Weight: 기존 `weight/normal` 400, `weight/medium` 500, `weight/semibold` 600, `weight/bold` 700 등을 사용한다. 실제 변수 값과 적용 굵기를 확인한다.
+- Pretendard의 실제 스타일명은 Regular·Medium·SemiBold·Bold 등이다. 기존 표시 이름과 글꼴 로드에 쓰는 스타일명이 같다고 가정하지 않는다.
+- 로컬 설치만 되어 있는 폰트는 서버 연결에서 보이지 않을 수 있다. Figma 파일 목록 → 프로필 → Settings → Account → Your uploaded fonts에서 사용하는 TTF/OTF와 굵기를 업로드한 뒤 재확인한다.
+- 기준일 잔여 예외: 키트 소개 배너의 Courier New 텍스트 8개는 기존 폰트 로드 불가로 미변경 상태다. 실제 UI 컴포넌트와 구분해 추적하며, 전체 파일 서체 변경 완료로 간주하지 않는다.
