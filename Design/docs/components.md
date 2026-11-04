@@ -15,7 +15,7 @@
 | Badge | [Badge](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=1867-919) | 미확인 |  |  |  |
 | Breadcrumb | [Breadcrumb](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=1870-186) | 미확인 |  |  |  |
 | Bubble | [Bubble](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=2377-442) | 미확인 |  |  |  |
-| Button | [Button](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=1879-1158) | 미확인 |  |  |  |
+| Button | [Button](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=1879-1158) | 기본 4개 확인 / 나머지 미확인 |  | 수정 중 | [메인 매칭·부분 반영](main-mapping.md) |
 | Button Group | [Button Group](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=1881-1030) | 미확인 |  |  |  |
 | Calendar | [Calendar](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=1891-4154) | 미확인 |  |  |  |
 | Card | [Card](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=1932-1658) | 미확인 |  |  |  |
