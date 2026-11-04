@@ -15,7 +15,7 @@
 | 항목 | 미존재 값 | 처리 |
 |---|---|---|
 | Font size | 10·11·17·22px | 원래 값 유지 |
-| Font family | Gmarket Sans | 원래 서체 유지. 현재 환경에서 로드할 수 없어 해당 4개 텍스트 연결 보류 |
+| Font family | Gmarket Sans → Pretendard | 사용자 요청으로 4개 모두 Pretendard Bold(700)로 교체하고 Family·Weight 변수 연결 완료 |
 | Line height | 22px, 100·120·130·150%, Auto | 원래 값·단위 유지. 기존 leading 숫자 변수는 px 기준이므로 비율값 직접 연결 금지 |
 | Letter spacing | 약 -0.408px, -0.2px, -2·-3·-5% | 원래 값·단위 유지. 가까운 변수로 대체하지 않음 |
 
@@ -115,3 +115,7 @@
 | [I5050:3216;6901:23229](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=I5050-3216;6901-23229) | 마이 | 행간 150% / fontSize 11 |
 | [I5050:3216;6901:23237](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=I5050-3216;6901-23237) | 전체 메뉴 | 행간 150% / fontSize 11 |
 | [I5050:3217;7097:40807](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=I5050-3217;7097-40807) | 퀵 메뉴 | 행간 100% |
+
+## 배너 서체 변경 — 2026-11-04
+
+사용자 요청으로 배너 4개 텍스트를 Gmarket Sans Bold에서 Pretendard Bold(700)로 변경하고 기존 family/sans·weight/bold 변수에 연결했다. 위 최초 연결 기록의 Gmarket Sans 및 폰트 로드 불가 예외는 해소되었다. 22px·120% 행간·-5% 자간은 기존 값 그대로 유지하며 미연결 상태다. 배너를 이미지 일체형으로 제공할지 텍스트를 분리할지는 미확정이다. 문구·줄 수를 유지했으며 상단의 자동 너비 텍스트 2개는 새 서체에 맞춰 너비가 줄었다. 현재 메인 텍스트 84개 모두 Family·Weight 변수가 연결된 상태다.
