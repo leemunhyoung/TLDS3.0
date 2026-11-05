@@ -1,6 +1,6 @@
 # 컴포넌트 목차
 
-기준일: 2026-11-04. [Shadcn 컴포넌트 페이지](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=2429-55)에 실제 정리된 62개 컴포넌트 구역을 알파벳순으로 기록했다. 링크는 각 컴포넌트의 원본과 예시가 모여 있는 프레임으로 연결된다. 개별 Variant를 별도 행으로 나열하지 않는다.
+기준일: 2026-11-05. [Shadcn 컴포넌트 페이지](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=2429-55)에 실제 정리된 기존 62개와 Header를 추가한 63개 컴포넌트 구역을 알파벳순으로 기록했다. 링크는 각 컴포넌트의 원본과 예시가 모여 있는 프레임으로 연결된다. 개별 Variant를 별도 행으로 나열하지 않는다.
 
 사용 여부·수정 상태·비고는 현재 비워두고, 이후 실제 화면 작업과 메인시안에 맞춘 디자인 수정 과정에서 갱신한다. 빈칸은 미사용 또는 미수정 확정을 뜻하지 않는다. 속성·상태는 이번에 상세 검수하지 않았으므로 미확인으로 표시한다.
 
@@ -34,6 +34,7 @@
 | Dropdown Menu | [Dropdown Menu](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=2140-2960) | 미확인 |  |  |  |
 | Empty | [Empty](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=2146-952) | 미확인 |  |  |  |
 | Field | [Field](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=2075-1077) | 미확인 |  |  |  |
+| Header | [Header](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=5096-12834) | Main-Sub / All Menu 외형 확인 | 사용 | 검토 중 | 더 라운지 추가 컴포넌트. H 구역, 메인 인스턴스 적용. 하단 상세 참조 |
 | Hover Card | [Hover Card](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=2156-377) | 미확인 |  |  |  |
 | Input | [Input](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=1926-2106) | 미확인 |  |  |  |
 | Input Group | [Input Group](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=1973-1392) | 미확인 |  |  |  |
@@ -77,3 +78,14 @@
 - 사용 여부와 수정 상태는 별개다. 상태값은 사용 여부: 미정/사용/미사용, 수정 상태: 미수정/수정 중/검토 중/확정으로 관리한다.
 - 컴포넌트가 추가·이동되면 이름과 링크를 갱신한다. 수정 상태를 확정하기 전에 속성·상태를 검수한다.
 - 미사용 판정 시 중첩 컴포넌트·다른 원본 내부 사용·다른 파일의 라이브러리 사용도 확인한다. 확인 불가능한 범위는 미확인으로 남긴다.
+
+## Header 추가 — 2026-11-05
+
+- 원본 세트: [Header](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=5096-12776), H 구역의 Hover Card 앞.
+- Main-Sub 원본 5096:12748: 메인 로고 + 이용권함·검색·알림. [메인 적용 인스턴스](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=5096-12777).
+- All Menu 원본 5096:12775: 전체 메뉴 제목 + 설정·검색·알림. Main Page 좌측 참고 시안 5084:19237을 확인하여 구성했고 참고 원본은 수정하지 않았다.
+- Navigation Menu와 OS 상태바는 Header에 포함하지 않는다. 서브페이지별 좌측 구성은 별도 기준이 제시되면 추가 검토한다.
+- 검수: 두 Variant와 예시 캡처 확인. 메인 Header는 375×48, y44, 로고 x20/y9/150×30, 아이콘 그룹 x251/y8/104×32로 교체 전과 동일하다. 기존 아이콘·배지·문구 유지.
+- 기존 변수 연결을 보존하고 높이 h-12, 좌우 pl-5/pr-5, 아이콘 그룹 gap-x-2를 연결했다. 전체메뉴 제목은 Pretendard Bold, size/xl·family/sans·weight/bold에 연결했다.
+- 잔여 검토: 원본의 직접 지정 값(예: 메인 세로 패딩 10px), 커스텀 아이콘의 세부 경로 색상 및 기존 외부 라이브러리 참조는 전체 토큰 전환 검수를 하지 않았다. 행간 150%는 원본을 유지하며 프로젝트 전역 확정을 의미하지 않는다. Dark 재설계·검수 및 코드/시멘틱 토큰 매핑은 이번 범위에 포함하지 않았다.
+- 메인 구조 적용 완료이며 사용자 디자인 검토 전이므로 목차 상태는 검토 중으로 기록한다.
