@@ -38,3 +38,11 @@
 ## 컬러 기준 갱신 — 2026-11-05
 
 [컬러 기준 v1](colors.md)을 따른다. [GNB 링크 상태](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=5069-12633)는 Default gray/600, Active primary에 연결했다. 실제 링크 목적지와 Hover/Focus 동작은 이번 범위에서 구현하지 않았다.
+
+## 메인 GNB 교체 완료 — 2026-11-05
+
+- [메인 GNB](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=5077-18682)의 표시 링크 9개를 기존 [GNB Text Link](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=5069-12633) 인스턴스로 교체했다. 이는 Shadcn 탐색 역할에 맞춘 더 라운지 전용 확장 컴포넌트이며 기존 Navigation Menu 원본의 직접 인스턴스는 아니다.
+- 라운지 Active 1개, 나머지 Default 8개. 문구·순서·개별 너비·높이 48px·좌우 여백 20px·항목 간격 16px 유지. 기존 숨김 항목 2개 보존.
+- 컬러 기준 28개를 실제 값과 대조해 일치 확인. 글꼴·크기·굵기·상태 색상 및 컨테이너 간격은 기존 변수에 연결.
+- 기존 프로토타입에 링크 목적지가 없어 URL이나 전환 동작을 임의 추가하지 않았다. 현재 작업은 디자인 인스턴스 교체이며 실제 서비스 링크 구현 완료를 뜻하지 않는다.
+- GNB 캡처로 표시 상태 확인. 나머지 헤더·본문은 변경하지 않았다.
