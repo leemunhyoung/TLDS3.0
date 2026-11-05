@@ -1,6 +1,6 @@
 # 컴포넌트 목차
 
-기준일: 2026-11-04. [Shadcn 컴포넌트 페이지](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=2429-55)에 실제 정리된 62개 컴포넌트 구역을 알파벳순으로 기록했다. 링크는 각 컴포넌트의 원본과 예시가 모여 있는 프레임으로 연결된다. 개별 Variant를 별도 행으로 나열하지 않는다.
+기준일: 2026-11-04. [Shadcn 컴포넌트 페이지](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=2429-55)에 실제 정리된 62개 기존 컴포넌트 구역과 GNB 확장 컴포넌트을 알파벳순으로 기록했다. 링크는 각 컴포넌트의 원본과 예시가 모여 있는 프레임으로 연결된다. 개별 Variant를 별도 행으로 나열하지 않는다.
 
 사용 여부·수정 상태·비고는 현재 비워두고, 이후 실제 화면 작업과 메인시안에 맞춘 디자인 수정 과정에서 갱신한다. 빈칸은 미사용 또는 미수정 확정을 뜻하지 않는다. 속성·상태는 이번에 상세 검수하지 않았으므로 미확인으로 표시한다.
 
@@ -34,6 +34,7 @@
 | Dropdown Menu | [Dropdown Menu](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=2140-2960) | 미확인 |  |  |  |
 | Empty | [Empty](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=2146-952) | 미확인 |  |  |  |
 | Field | [Field](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=2075-1077) | 미확인 |  |  |  |
+| GNB Text Link | [GNB Text Link](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=5069-12633) | Default·Active 확인 | 사용 | 검토 중 | [메인 GNB 9개 교체](main-mapping.md). 더 라운지 확장 링크 컴포넌트 |
 | Hover Card | [Hover Card](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=2156-377) | 미확인 |  |  |  |
 | Input | [Input](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=1926-2106) | 미확인 |  |  |  |
 | Input Group | [Input Group](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=1973-1392) | 미확인 |  |  |  |
