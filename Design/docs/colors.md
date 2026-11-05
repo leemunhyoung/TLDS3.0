@@ -2,7 +2,7 @@
 
 컬러 기준 버전: v1 · 2026-11-05 · 사용자 제공 수정본 Colors(1).png 적용
 
-[실제 Figma 컬러 가이드](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=5075-39) · 위치: Design Guide : Draft
+[실제 Figma 컬러 가이드](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=5075-39) · 위치: Color 페이지
 
 ## 기준 구조
 
@@ -12,7 +12,7 @@
 - Brand Color 1과 별도 CTA 팔레트·역할은 사용 대상에서 제외했다. #131920은 Gray 900으로 남으며 CTA 역할을 뜻하지 않는다.
 - White 및 기존 공유 변수, 950 단계, 다른 팔레트, rdx/colors는 의존 관계 보존을 위해 이번에 삭제하지 않았다. 새 컴포넌트의 컬러 선택은 아래 사용 팔레트를 기준으로 한다.
 - 기존 Shadcn 의미 변수의 역할을 유지한다. Gray 전체를 foreground·border 등에 임의 배정하지 않는다. System도 destructive 등 모든 의미 변수에 자동 연결하지 않았다.
-- Dark 모드는 원래 값을 보존했다. 이번 기준표는 현재 Light 작업의 사용 팔레트이며 Dark 완성·검수를 뜻하지 않는다.
+- Dark 모드는 원래 값을 보존한다. 현재 작업 범위는 Light 컬러 커스텀과 기존 Shadcn Dark 설정 보존이며, 지금 Light/Dark 팔레트를 새로 매칭하는 작업은 요구하지 않는다.
 - 로컬 스타일: `TLDS/Brand/*`, `TLDS/Gray/*`, `TLDS/System/*`, `TLDS/System-bg/*`, `TLDS/Role/primary`. 29개 모두 변수 바인딩이다.
 
 ## 사용 팔레트 기준값
@@ -76,3 +76,5 @@
 - 변수 20개 값 갱신, 시스템 변수 8개 추가, Primary Light 별칭 변경. 기존 변수 삭제 없음.
 - 2026-11-05: 수정된 Colors(1).png를 기준으로 v1 설정. Brand Color 1·CTA 제외. 컬러 변수·로컬 스타일·가이드 추가.
 - 새로 바뀐 컬러는 이 이력에 날짜·변수·이전/새 값·요청 근거를 추가한다.
+
+- 2026-11-05: 기존 컬러 가이드를 사용자 생성 Color 페이지로 이동하고 제공 이미지 형태로 재배치. 가이드 노드 ID와 컬러 변수 값 유지.
