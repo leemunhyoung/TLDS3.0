@@ -62,3 +62,7 @@
 ## 메인시안 반영 기록
 
 2026-11-04 등록된 [Main Page / #비로그인](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=5050-3170)을 관찰 기준으로 삼는다. [메인시안 → Shadcn 매칭표](main-mapping.md)에 적용 근거·공유 영향·미확정 항목을 기록한다. 현재는 기본 버튼 4개와 Light primary 색상의 부분 반영 단계이며 전체 컴포넌트·서브페이지 확정본이 아니다.
+
+## 컬러 기준 — 2026-11-05
+
+현재 [컬러 기준 v1 및 변경 확인 절차](colors.md)를 적용한다. [Figma 팔레트](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=5075-39)에 Brand Color·Gray·System·System-bg·Primary를 구성했다. Brand Color 1·CTA는 제외했다. 작업 전마다 실제 변수 HEX·모드·별칭 변경 여부를 확인한다. 이 날짜 이전 문서의 색상 참조보다 최신 승인 컬러 기준을 우선한다.
