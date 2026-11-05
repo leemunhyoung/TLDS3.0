@@ -8,7 +8,7 @@
 |---|---|---|---|
 | 채움형 버튼 | Button / Default | 메인 카드 등록·구매 버튼 | 기본 상태 default(32px)·lg(40px), 반경 4px, Pretendard 14px Bold 반영 |
 | 브랜드 외곽선 버튼 | Button / Outline | 메인 카드 알아보기·사용처 버튼 | 위 2개 크기의 기본 상태, 브랜드 테두리·텍스트 반영 |
-| 상단 서비스 메뉴 | Tabs 또는 Navigation Menu 조합 | 48px 높이, 16px 글자, 선택 Bold·비선택 Regular | 페이지 이동인지 패널 전환인지 동작 근거를 확인한 뒤 선택. 외형만 보고 Tabs로 확정하지 않음 |
+| 상단 서비스 메뉴 | GNB Text Link / 탐색 링크 패턴 | 사용자 확인: 서브페이지 이동용. 48px 높이, 16px, Active Bold·Default Regular | Default/Active 생성. Default gray/600, Active primary. Tabs/명령 Button으로 취급하지 않음 |
 | 인기·New 배지 | Badge 후보 | 반경 4px, 11px, 패딩 상하 2px·좌우 4px | 여러 색상·역할이 있으므로 공통 Badge 전체에 단일 값 적용 보류 |
 | 제휴카드 안내 영역 | Card 기반 조합 후보 | 내부 패딩 20px, 간격 16px, 반경 8px, 배경 #F0F2F5 | 기본 Card 전체와 동일하다고 확정하지 않음 |
 | 상품 카드·목록 | Card + Button + 이미지/텍스트 조합 | 2열, 열 간격 12px, 내부 간격 8·4·2px | 조합 패턴. 단일 Card에 모든 내용을 고정하지 않음 |
@@ -22,7 +22,7 @@
 
 - 기존 Button 원본 4개를 수정했다. Variant/Size/State/원본 ID와 인스턴스 관계를 유지한다.
 - 기존 높이 h-8·h-10, 반경 rounded-sm(4px), size/sm(14px), weight/bold(700)를 연결했다.
-- 기존 primary의 Light 값은 메인에서 사용하는 브랜드 변수 별칭으로 연결했다. 실제 표시 색은 약 #435CBC다. primary-foreground Light는 기존 white 변수로 연결했다.
+- 기존 primary의 Light 값은 2026-11-05 컬러 기준에 따라 로컬 tw/colors indigo/500 별칭으로 연결했다. 실제 표시 색은 #435CBC다. primary-foreground Light는 기존 white 변수로 연결했다.
 - 공유 영향: Light의 primary·primary-foreground를 참조하는 다른 컴포넌트와 기존 서브페이지에도 색상 변경이 전파된다. 전체 화면의 시각 검수 완료를 뜻하지 않는다.
 - Dark 모드 값과 변수 컬렉션·이름·모드·타입은 유지했다.
 - 버튼 기본 4개는 검토용 인스턴스 캡처로 확인했다. 고객 승인 또는 전체 Button 확정 상태가 아니다.
@@ -34,3 +34,7 @@
 - 메인에 없는 라벨–인풋 간격, 플레이스홀더, 오류·포커스 표현은 기존 Shadcn 설정을 유지하고 미확정으로 남긴다.
 - 대표 서브 레이아웃과 연결한 후 폼 간격·제목 계층을 결정한다.
 - 카드·배지·탭의 상세 반영 및 다른 화면의 영향 검수는 후속 작업이다.
+
+## 컬러 기준 갱신 — 2026-11-05
+
+[컬러 기준 v1](colors.md)을 따른다. [GNB 링크 상태](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=5069-12633)는 Default gray/600, Active primary에 연결했다. 실제 링크 목적지와 Hover/Focus 동작은 이번 범위에서 구현하지 않았다.
