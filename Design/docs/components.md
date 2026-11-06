@@ -37,6 +37,7 @@
 | Field | [Field](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=2075-1077) | 미확인 |  |  |  |
 | Header | [Header](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=5096-12834) | Main-Sub / All Menu 외형 확인 | 사용 | 검토 중 | 더 라운지 추가 컴포넌트. H 구역, 메인 인스턴스 적용. 하단 상세 참조 |
 | Hover Card | [Hover Card](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=2156-377) | 미확인 |  |  |  |
+| Indicator | [Indicator](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=5172-11541) | Dots·Counter 및 부모 적용 확인 | 사용 | 검토 중 | Service Menu·라운지 위치 안내에 인스턴스 적용. 숫자형 Current·Total 제공 |
 | Info Menu | [Info Menu](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=5144-11623) | 메인 외형·원본 연결 확인 | 사용 | 검토 중 | Service Menu Item 기반 바로가기 4개 |
 | Input | [Input](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=1926-2106) | 미확인 |  |  |  |
 | Input Group | [Input Group](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=1973-1392) | 미확인 |  |  |  |
