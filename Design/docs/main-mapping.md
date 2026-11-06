@@ -96,3 +96,12 @@
 - Auto Layout·Instance Swap으로 발생한 크기 변동을 수정한 뒤 최종 메인 전체 캡처와 각 Card 유형 예시를 확인했다.
 - Card Type 네 가지를 실제 전환하여 기본 Content와 크기가 바뀌는 것을 확인했다.
 - 디자인 적용 및 검수 기록이며 사용자 최종 승인, 코드 구현, 실제 앱 동작·전체 Dark·반응형 검수 완료는 아니다.
+
+
+## Indicator 분리 — 2026-11-06
+
+- [Indicator 원본](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=5172-11523)을 Components I 구역에 추가했다.
+- Type=Dots: Service Menu 1·2페이지 각각의 점 표시를 인스턴스로 교체. 335×6 영역 및 x20/y212 유지.
+- Type=Counter: 라운지 위치 안내의 1/10·일시정지 표시를 인스턴스로 교체. 67×20 및 x262/y62 유지. Current·Total 텍스트 속성 제공.
+- 기존 이미지·문구·색상·크기·페이지 표시 상태를 보존했다. 부모 컴포넌트의 페이지 상태가 Indicator를 선택하는 구조이며, 숫자형에 자동재생·타이머·정지 동작을 새로 구현하지 않았다.
+- 라이브러리 및 부모 예시의 캡처를 확인했다. 실제 앱 동작·접근성·자동재생 정책 검수는 별도다.
