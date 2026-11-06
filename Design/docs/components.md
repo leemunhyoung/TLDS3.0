@@ -1,6 +1,6 @@
 # 컴포넌트 목차
 
-기준일: 2026-11-05. [Shadcn 컴포넌트 페이지](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=2429-55)에 실제 정리된 기존 62개와 Header를 추가한 63개 컴포넌트 구역을 알파벳순으로 기록했다. 링크는 각 컴포넌트의 원본과 예시가 모여 있는 프레임으로 연결된다. 개별 Variant를 별도 행으로 나열하지 않는다.
+기준일: 2026-11-06. [Shadcn 컴포넌트 페이지](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=2429-55)에 기존 Shadcn 구역과 추가 서비스 컴포넌트을 알파벳순으로 기록했다. 링크는 각 컴포넌트의 원본과 예시가 모여 있는 프레임으로 연결된다. 개별 Variant를 별도 행으로 나열하지 않는다.
 
 사용 여부·수정 상태·비고는 현재 비워두고, 이후 실제 화면 작업과 메인시안에 맞춘 디자인 수정 과정에서 갱신한다. 빈칸은 미사용 또는 미수정 확정을 뜻하지 않는다. 속성·상태는 이번에 상세 검수하지 않았으므로 미확인으로 표시한다.
 
@@ -13,12 +13,13 @@
 | Attachment | [Attachment](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=2374-292) | 미확인 |  |  |  |
 | Avatar | [Avatar](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=1863-251) | 미확인 |  |  |  |
 | Badge | [Badge](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=1867-919) | 미확인 |  |  |  |
+| Bottom Menu | [Bottom Menu](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=5144-11675) | 메인 외형·원본 연결 확인 | 사용 | 검토 중 | Service Menu Item 기반 하단 5개 메뉴, 기존 Home Indicator 유지 |
 | Breadcrumb | [Breadcrumb](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=1870-186) | 미확인 |  |  |  |
 | Bubble | [Bubble](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=2377-442) | 미확인 |  |  |  |
 | Button | [Button](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=1879-1158) | 기본 4개 확인 / 나머지 미확인 |  | 수정 중 | [메인 매칭·부분 반영](main-mapping.md) |
 | Button Group | [Button Group](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=1881-1030) | 미확인 |  |  |  |
 | Calendar | [Calendar](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=1891-4154) | 미확인 |  |  |  |
-| Card | [Card](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=1932-1658) | 미확인 |  |  |  |
+| Card | [Card](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=1932-1658) | Type 4개 및 메인 적용 확인 | 사용 | 검토 중 | 배너·상품·안내형 추가. [현행 매칭 기록](main-mapping.md#사용자-작성-매칭표-반영--2026-11-06-현행) |
 | Carousel | [Carousel](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=1932-4265) | 미확인 |  |  |  |
 | Chart | [Chart](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=1937-478) | 미확인 |  |  |  |
 | Checkbox | [Checkbox](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=1937-1963) | 미확인 |  |  |  |
@@ -36,6 +37,7 @@
 | Field | [Field](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=2075-1077) | 미확인 |  |  |  |
 | Header | [Header](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=5096-12834) | Main-Sub / All Menu 외형 확인 | 사용 | 검토 중 | 더 라운지 추가 컴포넌트. H 구역, 메인 인스턴스 적용. 하단 상세 참조 |
 | Hover Card | [Hover Card](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=2156-377) | 미확인 |  |  |  |
+| Info Menu | [Info Menu](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=5144-11623) | 메인 외형·원본 연결 확인 | 사용 | 검토 중 | Service Menu Item 기반 바로가기 4개 |
 | Input | [Input](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=1926-2106) | 미확인 |  |  |  |
 | Input Group | [Input Group](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=1973-1392) | 미확인 |  |  |  |
 | Input OTP | [Input OTP](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=2160-7672) | 미확인 |  |  |  |
@@ -56,6 +58,7 @@
 | Scroll Area | [Scroll Area](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=2067-345) | 미확인 |  |  |  |
 | Select | [Select](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=2058-943) | 미확인 |  |  |  |
 | Separator | [Separator](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=2056-1085) | 미확인 |  |  |  |
+| Service Menu | [Service Menu](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=5129-30069) | 메인 외형 확인 / 재생 검수 별도 | 사용 | 검토 중 | 3D 서비스 12개·두 페이지. 하위에 Info Menu·Bottom Menu 예시 |
 | Sheet | [Sheet](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=2052-221) | 미확인 |  |  |  |
 | Sidebar | [Sidebar](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=2020-376) | 미확인 |  |  |  |
 | Skeleton | [Skeleton](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=2015-946) | 미확인 |  |  |  |
