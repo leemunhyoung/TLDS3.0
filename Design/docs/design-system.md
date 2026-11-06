@@ -94,3 +94,11 @@
 ### 자간 기준 변경 — 2026-11-06
 
 사용자 후속 요청으로 자간을 0px로 통일한다. 이전 -3px 규칙을 대체한다. Figma tw/font의 tracking/tlds 값은 0이며, 기존 연결을 유지한다. 10px→11px 및 크기별 행간(11·12·14px=150%, 16px 이상=130%)은 유지한다.
+
+
+## Input 사이즈 — 2026-11-06
+
+- [Input 원본](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=1928-3990)의 Size는 Default 32px, Large 40px이다. 높이는 기존 h-8·h-10 변수에 연결한다.
+- 기존 16개 원본의 ID를 유지하고 Size=Default를 지정했으며 Large 16개를 추가했다. 상태 4개(Default·Focus/Active·Destructive·Disabled), 텍스트 2개(Placeholder·Active), 라운드 2개 조합을 유지한다.
+- 기존 화면은 Default 32px를 유지한다. Large는 해당 화면의 승인된 레이아웃 기준에 따라 선택하며, 버튼과 나란히 배치할 때 높이를 맞춘다.
+- 기존 색상·서체·라운드·아이콘 및 부가 요소 속성을 유지한다. Input Group의 사이즈 확장과 프론트엔드 구현 완료를 의미하지 않는다.
