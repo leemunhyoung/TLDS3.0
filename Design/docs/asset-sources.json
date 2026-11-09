@@ -1,0 +1,29 @@
+{
+  "copiedOn": "2026-11-09",
+  "reference": "User-provided Desing_guide",
+  "upstream": "https://idtloungepmo.github.io/lounge3.0_guide/",
+  "upstreamCommit": null,
+  "synchronization": "Manual comparison; no automatic synchronization",
+  "files": [
+    {
+      "source": "C:\\Users\\hosu0\\Desktop\\Desing_guide\\assets\\style\\presentation-theme.css",
+      "destination": "Design/assets/style/presentation-theme.css",
+      "sha256": "f746652320b36df12fde9705fb5a412d77fa342a897aeed8489b0984c4d430b4"
+    },
+    {
+      "source": "C:\\Users\\hosu0\\Desktop\\Desing_guide\\assets\\style\\part-colors.css",
+      "destination": "Design/assets/style/part-colors.css",
+      "sha256": "381a8ceab925dbfdbc4c07a76ed39dfd074d81a75e13748b573a54d087b3bc97"
+    },
+    {
+      "source": "C:\\Users\\hosu0\\Desktop\\Desing_guide\\assets\\style\\document.css",
+      "destination": "Design/assets/style/document.css",
+      "sha256": "ebf53224ada441b531d9d4454587d7b5ad7e51da5fbef393029ea85a6696b276"
+    },
+    {
+      "source": "C:\\Users\\hosu0\\Desktop\\Desing_guide\\assets\\js\\common.js",
+      "destination": "Design/assets/js/common.js",
+      "sha256": "cd38fd09fd47adc1fdfecb795d11f1b60b75de8a65ab4f2810cc8daf6d738d98"
+    }
+  ]
+}
