@@ -9,6 +9,21 @@
 | [초기 구축부터 2026-11-09까지](2026-11-09-history.md) | 하네스·컬러·서체·컴포넌트·메인·로그인 등 32개 항목 소급 정리 | 확인된 사용자 검수 범위만 기재, 미확정 결과는 빈칸 |
 | [Frame Naming 반영](2026-11-09-frame-naming.md) | Designer Work Guide 확인 및 서브페이지 기준 반영 | 사용자 검수 결과는 빈칸 |
 | [시작 페이지·업무 연결 통합](2026-11-09-guide-integration.md) | TLDS 기준 유지, 사람용 안내·템플릿·업무 시작점·검수·기록 연결 | 문서 검증 결과는 해당 기록 참조 |
+| [버튼·입력 규격 수정](2026-11-09-components-sizing.md) | Button 종류·6px radius·3단계 높이 및 Input·InputGroup·Select 높이 | Figma AI 검수 완료, 사용자 검토 전 |
+| [Icon Button·Button Group 규격 확장](2026-11-09-icon-button-group.md) | 3단계 크기·Primary/Secondary/Third·외곽 6px·연결부 0px | Figma AI 검수 완료, 사용자 검토 전 |
+| [숫자패드 선형 지우기 아이콘](2026-11-10-keypad-delete.md) | 간편비밀번호 입력·설정·재입력에 lucide/delete 추가 | 구조·입력 화면 캡처 확인, 사용자 검토 전 |
+| [로그인-간편비밀번호설정 숫자키패드](2026-11-10-naver-keypad.md) | 네이버 샘플 참고 하단 배치·균등 열·선형 지우기, 문구 유지 | 지정 프레임 캡처 확인, 사용자 검토 전 |
+| [Tabs 높이32px 통일](2026-11-10-tabs-height-32.md) | 16개 상태32px·텍스트 위치 통일·언더라인 내부 배치 | 상태별 캡처 확인, 사용자 검토 전 |
+| [Secondary·Third Hover 구분](2026-11-10-button-hover.md) | 버튼·아이콘·그룹98개 호버 배경 및 primary-hover 역할 변수 | Light 캡처·변수 연결 확인, 사용자 검토 전 |
+| [SNS 로그인 전용 버튼](2026-11-10-social-login-buttons.md) | 기존 Button과 별개로4개 Provider 기본형 생성·로그인-내국인 적용 | 원본·화면 캡처 확인, 사용자 검토 전 |
+| [로그인·회원가입 AI 시안 디자인 정리](2026-11-10-auth-screen-refresh.md) | 신규 사용자 시안5개 기준 기존64개 화면 및 알럿 보드6개 여백·탭·버튼 정리 | 전체 구조·문구 대조 및 대표 캡처 검수, 사용자 설계서 대조 전 |
+| [버튼 텍스트 색상 보정](2026-11-09-button-text-color-fix.md) | 기본·Large Secondary 표시 및 paint 동기화 | 원본 재캡처 확인, 전체 화면·Dark 검수 범위는 기록 참조 |
+| [인증·소셜 버튼 후속 변경](2026-11-10-auth-social-button-followups.md) | 아이콘·배치·radius·Tabs40px·Apple 흰색·최근 배지 | 구조 및 대표 화면 캡처 확인 |
+| [Header 유형 추가](2026-11-10-header-variants.md) | Sub 2Depth·Login | 원본·사용 예시 캡처 확인 |
+| [구형 GNB 및 검토 프레임 정리](2026-11-11-legacy-gnb-cleanup.md) | 지정3개 항목 삭제 | 참조와 삭제 결과 확인 |
+| [텍스트 스타일 연결](2026-11-11-text-style-connection.md) | 표시 텍스트1072개 및 행간 기준 | 구조·대표 캡처 검수, 사용자 검토 전 |
+| [Button Default36px 및 퀵메뉴](2026-11-12-button-height-36.md) | 크기4종 및 퀵메뉴 연결 | 높이·캡처 검수, 사용자 검토 전 |
+| [비회원 주문조회 Header 및 xs28px](2026-11-12-guest-order-header.md) | Header 추가 및 xs48개 상태28px | 구조·캡처 검수, 사용자 검토 전 |
 
 ## 이후 작업 기록 방법
 

@@ -1,0 +1,7 @@
+# Preserve downloaded brand resources and their recorded SHA-256 hashes.
+Design/assets/social-login/** -text
+Design/assets/social-login/**/*.ai binary
+Design/assets/social-login/**/*.pdf binary
+Design/assets/social-login/*.md text eol=lf
+Design/assets/social-login/*.html text eol=lf
+Design/assets/social-login/*.json text eol=lf

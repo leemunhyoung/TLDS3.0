@@ -78,3 +78,7 @@
 - 새로 바뀐 컬러는 이 이력에 날짜·변수·이전/새 값·요청 근거를 추가한다.
 
 - 2026-11-05: 기존 컬러 가이드를 사용자 생성 Color 페이지로 이동하고 제공 이미지 형태로 재배치. 가이드 노드 ID와 컬러 변수 값 유지.
+
+## Primary Hover 역할 추가 — 2026-11-10
+
+버튼 Hover 구분 요청에 따라 mode/primary-hover(VariableID:5247:12189)를 추가했습니다. Light는 tw/colors indigo/50(#ECEFF8), Dark는 기존 mode/accent를 참조합니다. Secondary Hover 배경용이며 Third Hover에는 기존 mode/accent를 사용합니다. 기존 팔레트28개 및 Primary·Dark의 기존 값·별칭은 변경하지 않았습니다. [적용·검수 범위](../tasks/2026-11-10-button-hover.md)를 확인합니다.

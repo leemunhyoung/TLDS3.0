@@ -1,0 +1,95 @@
+{
+  "collectedOn": "2026-11-10",
+  "providers": {
+    "kakao": {
+      "guide": "https://developers.kakao.com/docs/ko/kakaologin/design-guide",
+      "download": "https://developers.kakao.com/tool/download/Kakao%20Login.zip",
+      "archive": "originals/kakao-login.zip",
+      "sha256": "7664a07cdd88ac5219282a4580571a169683468e2efc06c8a962dd87068b5600",
+      "bytes": 85515
+    },
+    "naver": {
+      "guide": "https://developers.naver.com/docs/login/bi/bi.md",
+      "download": "https://developers.naver.com/inc/devcenter/downloads/bi/NAVER_login_KR.zip",
+      "archive": "originals/naver-login-kr.zip",
+      "sha256": "e589e3c1daf62cfcb6c38906856b953ae955c97d1411b3c3ce85d29e61c4471c",
+      "bytes": 196133
+    },
+    "google": {
+      "guide": "https://developers.google.com/identity/branding-guidelines",
+      "download": "https://developers.google.com/static/identity/images/signin-assets.zip",
+      "archive": "originals/google-signin-assets.zip",
+      "sha256": "ba884069e12093b06bcfd776915081254a7c95094b80d50be2c5dc6bac1c1da1",
+      "bytes": 855303
+    },
+    "apple": {
+      "guide": "https://developer.apple.com/design/human-interface-guidelines/sign-in-with-apple",
+      "download": "https://devimages-cdn.apple.com/design/resources/download/Logo-Sign-in-with-Apple.dmg",
+      "archive": "originals/apple-signin-logo.dmg",
+      "sha256": "99fba5c8a294a86653294b3766d7ce21dde47cc75a77367659c45ea168699af6",
+      "bytes": 195405
+    }
+  },
+  "selected": [
+    {
+      "file": "ready-to-use/apple-login-icon-black.svg",
+      "sha256": "7ee1bc1706bc228f37a937de914e2ebe1605aebba3c35f11c3963087573fc11f",
+      "bytes": 1817,
+      "unchangedOriginal": "apple/Sign in with Apple - Logo Only/SVG/Logo - SIWA - Logo-only - Black.svg"
+    },
+    {
+      "file": "ready-to-use/apple-login-icon-white.svg",
+      "sha256": "fd66b19f3f09ade3650cc3289a744ee9636764068243805d9c74deeecbde191b",
+      "bytes": 1819,
+      "unchangedOriginal": "apple/Sign in with Apple - Logo Only/SVG/Logo - SIWA - Logo-only - White.svg"
+    },
+    {
+      "file": "ready-to-use/google-login-icon-dark.svg",
+      "sha256": "2f7ecc307b1db0f1738456269ee2c4433b3a73c35060ced67a9afcfc6821e786",
+      "bytes": 10793,
+      "unchangedOriginal": "google/Android + Web/SVG/Dark/Theme=Dark, Show text=No, Shape=Square, Platform=Android+Web.svg"
+    },
+    {
+      "file": "ready-to-use/google-login-icon-light.svg",
+      "sha256": "6587b180203a99da15c0a041018e15c94ffd9556c4b9855bdc69806081a93791",
+      "bytes": 10791,
+      "unchangedOriginal": "google/Android + Web/SVG/Light/Theme=Light, Show text=No, Shape=Square, Platform=Android+Web.svg"
+    },
+    {
+      "file": "ready-to-use/google-login-icon-round.svg",
+      "sha256": "01485c12740ba7b0eecb07f74a83d46d9e328d496c8e610640e6a705590ac325",
+      "bytes": 10790,
+      "unchangedOriginal": "google/Android + Web/SVG/Light/Theme=Light, Show text=No, Shape=Pill, Platform=Android+Web.svg"
+    },
+    {
+      "file": "ready-to-use/kakao-login-icon.png",
+      "sha256": "52530053de4bd84aabb2ea0716c793a71076d43d5229488e873bc56db028d180",
+      "bytes": 1761,
+      "unchangedOriginal": "kakao/Kakao Login/PNG @4x/kakao_login_light.png",
+      "width": 192,
+      "height": 192
+    },
+    {
+      "file": "ready-to-use/kakao-login-icon.svg",
+      "sha256": "27ee345cc3b7e9a8cb569f163202e55e6dcc9779b0a18038a8b446561a085685",
+      "bytes": 551,
+      "unchangedOriginal": "kakao/Kakao Login/SVG/kakao_login_light.svg"
+    },
+    {
+      "file": "ready-to-use/naver-login-icon-green.png",
+      "sha256": "83eeef830bee319b83737bde1c74509e9ac7b1a6659e23e318cfcd7d6640f0f7",
+      "bytes": 4252,
+      "unchangedOriginal": "naver/NAVER_login_KR/NAVER_login_Light_KR_green_icon_H56.png",
+      "width": 224,
+      "height": 224
+    },
+    {
+      "file": "ready-to-use/naver-login-icon-white.png",
+      "sha256": "01430fa1063d0f70323828525fe983e67c2f6978158049e041939efb83422b50",
+      "bytes": 5876,
+      "unchangedOriginal": "naver/NAVER_login_KR/NAVER_login_Light_KR_white_icon_H56.png",
+      "width": 224,
+      "height": 224
+    }
+  ]
+}

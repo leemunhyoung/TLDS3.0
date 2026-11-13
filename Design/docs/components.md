@@ -93,3 +93,44 @@
 - 기존 변수 연결을 보존하고 높이 h-12, 좌우 pl-5/pr-5, 아이콘 그룹 gap-x-2를 연결했다. 전체메뉴 제목은 Pretendard Bold, size/xl·family/sans·weight/bold에 연결했다.
 - 잔여 검토: 원본의 직접 지정 값(예: 메인 세로 패딩 10px), 커스텀 아이콘의 세부 경로 색상 및 기존 외부 라이브러리 참조는 전체 토큰 전환 검수를 하지 않았다. 행간 150%는 원본을 유지하며 프로젝트 전역 확정을 의미하지 않는다. Dark 재설계·검수 및 코드/시멘틱 토큰 매핑은 이번 범위에 포함하지 않았다.
 - 메인 구조 적용 완료이며 사용자 디자인 검토 전이므로 목차 상태는 검토 중으로 기록한다.
+
+## 버튼·입력 크기 변경 — 2026-11-09
+
+- 사용자 요청으로 Button의 Small 32px·Default 40px·Large 48px와 radius-sm 6px를 적용했습니다. Primary(면)·Secondary(Primary 라인)·Third(회색 라인)로 기존 역할을 변경했습니다.
+- Input·InputGroup·Select·NativeSelect도 Small 32px·Default 40px·Large 48px를 사용합니다. Input·InputGroup에는 Small을 추가하고 NativeSelect에는 Size 속성을 추가했습니다.
+- 기존 xs 및 특수 버튼 종류·상태는 참조 보존을 위해 유지했습니다. 기존 변수 값과 모드는 변경하지 않았습니다.
+- [변경·검수·영향 기록](../tasks/2026-11-09-components-sizing.md)과 [Figma 검토 화면](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=5210-15330)을 확인합니다. Figma 요청 범위의 AI 검수는 완료했으며 사용자 검토와 모든 참조 화면 검수는 별도입니다.
+
+## Icon Button·Button Group 확장 — 2026-11-09
+
+- 후속 사용자 요청으로 Icon Button·ButtonGroupButton·ButtonGroupIconButton에 Small 32px·Default 40px·Large 48px 및 Primary(면)·Secondary(라인)·Third(회색 라인)를 적용했습니다. 아이콘형 너비도 32·40·48px로 맞췄습니다.
+- 외곽 모서리는 radius-sm 6px, 그룹 연결부는 radius-none 0px입니다. 가로 Left·Middle·Right와 세로 Top·Bottom 구분을 유지했습니다. 그룹에는 Primary 132개 변형을 추가했습니다.
+- 기존 원본 ID·상태·특수 종류·변수 값·모드를 보존했습니다. [변경과 검수 기록](../tasks/2026-11-09-icon-button-group.md), [검토 화면](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=5213-11856)을 확인합니다. 사용자 검토와 모든 참조 화면 검수는 별도입니다.
+
+## Tabs 높이 통일 — 2026-11-10
+
+사용자 요청으로 Tab의 Default·Underline 및 선택 여부·기본·호버·포커스·비활성 전체16개 상태의 높이를 h-8 32px로 통일했습니다. 선택된 언더라인은 전체 높이를 늘리지 않도록32px 내부 하단에 배치하며, 텍스트의 세로 위치를 동일하게 유지합니다. 원본ID와 기존 상태·변수는 보존했습니다. [변경·검수 기록](../tasks/2026-11-10-tabs-height-32.md)을 확인합니다.
+
+## Secondary·Third Hover 구분 — 2026-11-10
+
+사용자 요청으로 Button·Icon Button·ButtonGroupButton·ButtonGroupIconButton의 Secondary Hover는 mode/primary-hover(연한 브랜드색), Third Hover는 기존 mode/accent(회색 상태 배경)에 연결했습니다. 기본 흰색 배경과 Hover를 구분하며 기존 크기·테두리·타이포·다른 상태는 유지합니다. [변경·검수 기록](../tasks/2026-11-10-button-hover.md)을 확인합니다.
+
+## Social Login Button 추가 — 2026-11-10
+
+사용자가 기존 Button과 별개로 생성하도록 요청한 [Social Login Button](https://www.figma.com/design/1Qe6U3JD2oHDmofvcKr4ho/TLDS3.0?node-id=5261-12252)을 Components S 구역에 추가했습니다. Kakao·Naver·Google·Apple의 텍스트 포함 기본 상태4종, 높이48px이며 서비스별 공식 색상·로고·여백 규칙을 우선합니다. 별도 social-login 변수 컬렉션과 레이블 스타일을 사용합니다. [로그인-내국인 적용·검수 기록](../tasks/2026-11-10-social-login-buttons.md)을 확인합니다. 일반 버튼 원본은 변경하지 않았으며 추가 상태·아이콘 전용·Dark는 후속 범위입니다.
+
+## SNS 버튼 공통 타이포 — 2026-11-10
+
+후속 사용자 요청으로 Social Login Button4종을 생체인증·간편 비밀번호와 같은 Pretendard Medium14px·행간150%·자간0px로 통일했습니다. Social Login/Label 스타일과 기존 폰트 변수를 연결하고 Google로 로그인 한글 문구를 적용했습니다. 서비스별 로고·색상·48px 높이는 유지했습니다. 이는 앞선 공식 기본 타이포보다 제품 공통 타이포를 우선한 커스텀 적용이며, Google 기본 서체·Apple 기본 글자 비율과의 차이는 [작업 기록](../tasks/2026-11-10-social-login-buttons.md)에 남겼습니다.
+
+## 후속 확정 규격 — 2026-11-12
+
+앞선 날짜별 기록 이후 적용한 규격입니다.
+
+- Button은 xs28px, Small32px, Default36px, Large48px입니다. 퀵메뉴 버튼은 공용 Button Default에 연결했습니다. [Default 및 퀵메뉴](../tasks/2026-11-12-button-height-36.md), [xs28px 및 비회원 Header](../tasks/2026-11-12-guest-order-header.md).
+- Tabs는 Default·Underline 전체16개 상태에서 높이40px입니다. [후속 적용 기록](../tasks/2026-11-10-auth-social-button-followups.md).
+- Header에는 Sub 2Depth·Login·Guest Order Lookup을 추가했습니다. Guest Order Lookup의 주문조회 버튼은 xs28px에 시안의14px 글자를 적용합니다. [Header 추가](../tasks/2026-11-10-header-variants.md), [비회원 주문조회](../tasks/2026-11-12-guest-order-header.md).
+- Social Login Button은 로고 높이16px, 왼쪽 아이콘 배치, radius-sm6px를 사용합니다. Apple은 흰 배경·회색 테두리이며 Recent 옵션으로 최근 배지를 표시합니다. [소셜 버튼 후속 변경](../tasks/2026-11-10-auth-social-button-followups.md).
+- Text-11 및 Text-xs~9xl의 행간은11·12·14·16px150%,18px 이상130%, 자간0px입니다. 로그인/회원가입의 표시 텍스트1072개를 이 스타일에 연결했습니다. [타이포 적용 기록](../tasks/2026-11-11-text-style-connection.md).
+- Legacy GNB Text Link 및 버튼·GNB 비교용 검토 프레임3개를 삭제했습니다. [정리 기록](../tasks/2026-11-11-legacy-gnb-cleanup.md).
+- 수집한 소셜 로그인 공식 아이콘과 출처·해시는 [자료 안내](../assets/social-login/README.md)에서 확인할 수 있습니다.
